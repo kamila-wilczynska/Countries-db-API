@@ -6,6 +6,7 @@ The Countries API provides access to information about various countries, includ
 
 ## Base URL
 The base URL for accessing the API is:
+https://countries-db-api.onrender.com/
 
 
 ## Endpoints:
