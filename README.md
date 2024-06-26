@@ -13,25 +13,18 @@ https://countries-db-api.onrender.com/
 ### Get All Countries
 URL: /api/countries  
 Method: GET  
-Success Response: Code: 200, Content: JSON array of countries  
+Success Response: Code: 200, Content: JSON array of countries 
+https://countries-db-api.onrender.com/api/countries
 
-
-### Get Country by ID
-URL: /api/countries/:id  
-Method: GET  
-URL Params: Required: id=[integer]  
-Success Response: Code: 200, Content: JSON object of a single country  
-Error Response: Code: 404 NOT FOUND, Content: { error : "Country not found" }  
 
 
 ### Create a New Country
-URL: /api/countries  
+URL: /
 Method: POST  
 Data Params: Required: { "country": "string" }  
 Functionality: This endpoint allows users to add a new country to the database. It includes validation to ensure that the country name meets specific criteria, such as a minimum length requirement, to maintain data quality and consistency.  
-Success Response: Code: 201, Content: JSON object of created country  
-Example: curl -X POST https://countries-api-1-onug.onrender.com/api/countries -H "Content-Type: application/json" -d '{"country": "NewCountry"}'
-Using POSTMAN 
+Success Response: Code: 201, Content: JSON object of created country 
+https://countries-db-api.onrender.com/ 
 
 
 
